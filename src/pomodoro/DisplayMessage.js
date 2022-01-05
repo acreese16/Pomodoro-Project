@@ -45,7 +45,7 @@ function DisplayMessage({ focusDuration, breakDuration, session }) {
                     (session.label === "Focusing"
                       ? focusDuration * 60
                       : breakDuration * 60)
-                }`,
+                }%`,
               }} // TODO: Increase width % as elapsed time increases
             />
           </div>
